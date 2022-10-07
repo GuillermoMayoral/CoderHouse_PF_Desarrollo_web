@@ -1,0 +1,376 @@
+/* 
+clases:
+    fx:flex
+    au:about us 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background: rgb(136,136,136);
+background: linear-gradient(0deg, rgba(136,136,136,1) 0%, rgba(223,222,218,1) 100%);
+}
+
+img, iframe{
+    height: 100px;
+    width: 100px;
+}
+
+/* aqui empieza el menu de nav y el head */
+a, a:active {
+    text-decoration: none;
+    color: #D1AF94;
+    transition: .5s;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.main-page {
+    color: #dc955b;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.fx-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: flex-end;
+    border-bottom: 10px solid gray;
+}
+
+.logo {
+    height: 100%;
+    margin-left: 20%;
+}
+
+.fx-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.fx-ul li{
+    margin: 20px;
+    font-size: 20px;
+}
+
+/* aqui inicia el main home */
+.home img {
+    display: block;
+    height: 610px;
+    width: 50%;
+}
+
+.title-1 {
+    font-size: 80px;
+    display: inline-block;
+    position: absolute;
+    bottom: 400px;
+    left: 890px;
+    padding-top: 30px;
+    border-top: solid 1px black;
+}
+
+.title-2 {
+    font-size: 80px;
+    display: inline-block;
+    position: absolute;
+    bottom: 280px;
+    left: 900px;
+    padding: 0 105px 30px 105px; 
+    border-bottom: solid 1px black;
+}
+
+.sub-title {
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    bottom: 220px;
+    left: 950px;
+}
+
+.sub-title-2 {
+    font-size: 25px;
+    color: #dc955b;
+    display: inline-block;
+    position: absolute;
+    bottom: 170px;
+    left: 920px;
+}
+
+/* titulos de las paginas */
+
+.title-menu {
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 50px;
+    top: 15px;
+    left: 60px;
+    border-bottom: 1px solid black;
+}
+
+/* estilo de bloques */
+.block-styles {
+    border-radius: 5px;
+    background-color: #faf0e8;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+/* aqui inicia main sofa */
+/* cree estos articulos con model box para la evalucion (hubiera preferido usar flexbox) */
+.block {
+    display: block;
+}
+
+.block-sofas {
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+    left: 93px;
+    right: auto;
+    padding: 1% 1%;
+    margin: 2%;
+    width: 25%;
+    height: 100%;
+}
+
+.block-sofas img {
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    top: 100%;
+}
+
+.block-sofas p {
+    margin: 5%;
+}
+
+/* aqui empieza main tables */
+.fx-tables {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fx-tables div {
+    width: 50%;
+}
+
+.container-div {
+    padding: 20px;
+    margin: 2.5% 1.75% 2.5% 2.5%;
+    height: 700px;
+}
+
+.container-div iframe{
+    width: 100%;
+    height: 56%;
+}
+
+.container-div p{
+    text-align: justify;
+    font-size: 30px;
+    padding: 5%;
+    width: 100%;
+    height: 320px;
+}
+
+.container-div-2 {
+    margin: 1.5% 2.5% 2.5% 1.75%;
+}
+
+.container-div-2 article {
+    margin: 2.5%;
+}
+
+.container-div-2 article img{
+    width: 100%;
+    height: auto;
+    padding: 1%;
+}
+
+.container-div-2 article p {
+    width: 100%;
+    text-align: justify;
+    font-size: 20px;
+    height: auto;
+    padding: 10%;
+}
+
+/* aqui empieza main about us */
+.au1{
+    display: inline-block;
+    width: 40%;
+   padding: 10px;
+   margin: 0 2.5% 2.5%;
+}
+
+.au1-img{
+    width: 100%
+}
+
+.au1-img img {
+    width: 100%;
+    height: auto;
+}
+
+.au1-img2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+}
+
+.au1-img2 img {
+    width: 49.5%;
+    height: auto;
+    object-fit: cover;
+}
+
+.au2 {
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    left: 800px;
+}
+
+.au2-flex {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.au2-flex img {
+    width: 40%;
+    margin: 1.5%;
+    height: auto;
+}
+
+.au2-flex p {
+    width: 54%;
+    margin: 1.5%;
+    padding: 5px;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.au3-flex {
+    display: flex;
+}
+
+.au3-flex table {
+    width: 54%;
+    border-collapse: collapse;
+    margin: 5px;
+    font-size: 15px;
+}
+
+th, td {
+    border: solid 1px black;
+    text-align: left;
+}
+
+th {
+    background-color: #dc955b;
+}
+
+.au3-flex img {
+    width: 40%;
+    margin: 1.5%;
+    height: auto;
+}
+
+/* aqui inicia main services */
+.s1 {
+    display: inline-block;
+    width: 40%;
+}
+
+.s1 iframe {
+    width: 100%;
+    height: 500px;
+    margin: 5%;
+}
+
+.s2 {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    width: 40%;
+    left: 100px;
+    bottom: 100px;
+
+}
+
+.s2-subtitle {
+    font-size: 35px;
+    margin: 50px;
+    text-decoration: underline;
+}
+
+.s2 p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px;
+}
+
+/* aqui inicia el main contact */
+.form-contact {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 55px;
+    padding: 30px;
+}
+
+.form-contact h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.data {
+    width: 100%;
+    background-color: #d6d6d6;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.form-contact button {
+    width: 100%;
+    background-color: #D1AF94;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+}
+
+.data-radio {
+    margin-bottom: 16px;
+}
+
+/* aqui inicia el footer */
+.fx-footer {
+    color: black;
+    background-color: #97918c;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 5px;
+}
+
+.fx-footer a {
+    color: black;
+}

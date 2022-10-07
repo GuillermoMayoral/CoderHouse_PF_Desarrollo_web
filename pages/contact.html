@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/styles.css" />
+
+  <title>MG Contact</title>
+</head>
+
+<body>
+  <header class="fx-header">
+    <div>
+      <img id="title" class="logo" src="../images/logo.png" alt="logo" />
+    </div>
+    <nav>
+      <ul class="fx-ul">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./sofa.html">Sofas</a></li>
+        <li><a href="./tables.html">Tables</a></li>
+        <li><a href="./about-us.html">About us</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a class="main-page" href="./contact.html">Contact</a></li>
+      </ul>
+  </header>
+  <main>
+    <div>
+      <h1 class="title-menu">Contact</h1>
+    </div>
+    <div>
+      <form class="form-contact block-styles" method="post">
+        <h4>REGISTER</h4>
+        <label for="name"></label>
+        <input id="name" class="data" name="name" placeholder="Name..." required/>
+        <br />
+        <label for="lastname"></label>
+        <input id="lastname" class="data" name="lastname" placeholder="Last name..." required/>
+        <br />
+        <label for="email"></label>
+        <input type="email" class="data" id="email" name="email" placeholder="E-mail@..." required/>
+        <br />
+        <label>I'm client
+          <input type="radio" class="data-radio" value="yes" name="client" />
+        </label>
+        <label>I'm not client
+          <input type="radio" class="data-radio" value="no" name="client" checked/>
+        </label>
+        <br />
+        <textarea name="comment" id="comment" class="data" placeholder="Tell us... (optional)" cols="47" rows="5"></textarea>
+        <button>Send</button>
+      </form>
+    </div>
+  </main>
+  <footer class="fx-footer">
+    <a href="#title">Back to home</a>
+    <p>CoderHouse Project - By Guillermo Mayoral</p>
+    <p>Copyright 2022 - MG Muebles Deluxe</p>
+  </footer>
+</body>
+
+</html>
