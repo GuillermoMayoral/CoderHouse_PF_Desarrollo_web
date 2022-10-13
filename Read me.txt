@@ -1,8 +1,0 @@
-This is a project that I make with CoderHouse 
-
-I used Html and css
-
-In css I put into practice:
--model box
--flexbox
--grids (soon)

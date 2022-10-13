@@ -66,61 +66,65 @@ a:hover {
 }
 
 /* aqui inicia el main home */
-.home img {
-    display: block;
-    height: 610px;
-    width: 50%;
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+height: 470px;
 }
 
-.title-1 {
-    font-size: 80px;
-    display: inline-block;
-    position: absolute;
-    bottom: 400px;
-    left: 890px;
-    padding-top: 30px;
-    border-top: solid 1px black;
+.home-bg img{
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
 }
 
-.title-2 {
-    font-size: 80px;
-    display: inline-block;
-    position: absolute;
-    bottom: 280px;
-    left: 900px;
-    padding: 0 105px 30px 105px; 
-    border-bottom: solid 1px black;
+.home-t {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.sub-title {
+.home-t div {
+    width: 100%;
+    height: 300px;
+    padding: 50px 30px 0px 30px;
+}
+
+.home-t div h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    font-size: 75px;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+.home p {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
     font-size: 30px;
-    display: inline-block;
-    position: absolute;
-    bottom: 220px;
-    left: 950px;
+    align-items: center;
 }
 
-.sub-title-2 {
+.home p a {
+    margin-top: 10px;
     font-size: 25px;
-    color: #dc955b;
-    display: inline-block;
-    position: absolute;
-    bottom: 170px;
-    left: 920px;
 }
 
-/* titulos de las paginas */
-
-.title-menu {
+/* .title-menu {
     font-size: 40px;
     display: inline-block;
     position: relative;
     padding: 20px;
     margin-bottom: 50px;
-    top: 15px;
+    top: 150px;
     left: 60px;
     border-bottom: 1px solid black;
-}
+} */
 
 /* estilo de bloques */
 .block-styles {

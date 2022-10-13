@@ -1,0 +1,12 @@
+Las partes a modificar para la 2da pre entrega son:
+
+
+(concluido)
+-index
+	-se implemento grid/flex
+	 y vista mobil.
+
+(por concluir)
+-sofas
+-tables
+	-agregar grid, animaciones y vista mobile
