@@ -1,0 +1,23 @@
+[33mcommit 4e9d961fdfc46e814d603429b3a91215bb5322ef[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: Guillermo Mayoral <espart-187@outlook.com>
+Date:   Sat Oct 15 23:54:26 2022 -0500
+
+    Redesign od the nav, adapted to mobile view
+
+[33mcommit 855bebd56d95d0e2d2c79203b0c913a769ff125b[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Guillermo Mayoral <espart-187@outlook.com>
+Date:   Sat Oct 15 21:55:57 2022 -0500
+
+    tag br eliminated from the tittle
+
+[33mcommit 2bfb56471a18114f4374871a4f021ea60b0a389c[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Guillermo Mayoral <espart-187@outlook.com>
+Date:   Wed Oct 12 22:27:44 2022 -0500
+
+    Actualizacion de index, agregado de Grid/flex (posteriormente agregar first movile)
+
+[33mcommit 107ffc203756eb117350d4dd30ba284412026980[m
+Author: Guillermo Mayoral <espart-187@outlook.com>
+Date:   Thu Oct 6 21:58:24 2022 -0500
+
+    subiendo proyecto
