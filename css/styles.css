@@ -53,8 +53,28 @@ iframe {
     font-size: 22px;
 }
 
+.jumbotron {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/background\ principal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron h1 {
+    color: #000000;
+    text-shadow: 0 0 5px black;
+}
+
+.carousel-item img {
+    width: 60%;
+    margin-left: 20%;
+    object-fit: cover;
+    object-position: center;
+    height: 250px;
+}
+
 /* aqui empieza el menu de nav y el head */
-a, a:active {
+a,
+a:active {
     text-decoration: none;
     color: #D1AF94;
     transition: .5s;
