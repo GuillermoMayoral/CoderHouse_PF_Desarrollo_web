@@ -6,7 +6,5 @@ Las partes a modificar para la 2da pre entrega son:
 	-se implemento grid/flex
 	 y vista mobil.
 
-(por concluir)
--sofas
--tables
-	-agregar grid, animaciones y vista mobile
+-sofa 
+	-se implemento bootstrap con animaciones de forma responsive
