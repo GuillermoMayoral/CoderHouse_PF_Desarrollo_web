@@ -22,9 +22,39 @@ iframe {
     width: 100px;
 }
 
+/* menu nav de bootstrap page Sofa */
+.navbar {
+    padding: 0;
+    background-color: black;
+    height: 114px;
+    border-bottom: 10px solid gray;
+    align-items: flex-end;
+}
+
+.logo-b {
+    width: auto;
+    height: 100%;
+    margin-left: 1.5%;
+}
+
+.navbar-collapse {
+    flex-direction: row-reverse;
+    background-color: black;
+    z-index: 1;
+}
+
+.nav-item {
+    margin: 15px;
+}
+
+.nav-item a {
+    color: #D1AF94;
+    padding: 10px;
+    font-size: 22px;
+}
+
 /* aqui empieza el menu de nav y el head */
-a,
-a:active {
+a, a:active {
     text-decoration: none;
     color: #D1AF94;
     transition: .5s;
@@ -74,12 +104,12 @@ a:hover {
     .home {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        height: 470px;
+        height: 610px;
     }
 
     .home-bg img {
         width: 100%;
-        height: 470px;
+        height: 610px;
         object-fit: cover;
     }
 
