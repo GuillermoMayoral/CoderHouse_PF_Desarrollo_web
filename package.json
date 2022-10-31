@@ -1,0 +1,23 @@
+{
+  "name": "coderhouse_project",
+  "version": "1.0.0",
+  "description": "Proyecto con sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillermoMayoral/CoderHouse_Project.git"
+  },
+  "author": "Guillermo Mayoral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuillermoMayoral/CoderHouse_Project/issues"
+  },
+  "homepage": "https://github.com/GuillermoMayoral/CoderHouse_Project#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
