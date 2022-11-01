@@ -5,66 +5,92 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/styles.css">
 
   <title>MG Tables</title>
 </head>
 
 <body>
-  <header class="fx-header">
-    <div>
-      <img id="title" class="logo" src="../images/logo.png" alt="logo" />
-    </div>
-    <nav>
-      <ul class="fx-ul">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="./sofa.html">Sofas</a></li>
-        <li><a class="main-page" href="./tables.html">Tables</a></li>
-        <li><a href="./about-us.html">About us</a></li>
-        <li><a href="./services.html">Services</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
+  <header>
+    <!--class="fx-header" -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <!-- Brand -->
+      <a class="logo-b" href="../index.html"><img id="title" class="logo-b" src="../images/logo.png" alt="Logo"></a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="../index.html">Home</a>
+          <li class="nav-item">
+            <a href="./sofa.html">Sofas</a>
+          <li class="nav-item">
+            <a class="main-page" href="./tables.html">Tables</a>
+          <li class="nav-item">
+            <a href="./about-us.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a href="./services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
   <main>
-    <div>
-      <h1 class="title-menu">Tables</h1>
+    <!-- inicia jumbotron -->
+    <div class="jumbotron titulo-sofas">
+      <h1>Tables</h1>
     </div>
-    <div class="fx-tables">
-      <div class="container-div block-styles">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/4xDl_rBhdB0?start=36"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
-          excepturi hic! Quas, distinctio recusandae rerum tempora illum quia.
-          Animi consectetur vero iure ea dolor tempore quia quisquam magnam, totam
-          laboriosam.
-      </div>
-      <div class="container-div-2">
-        <section>
-          <article class="block-styles">
-            <img src="../images/COMEDOR ARGELIA  DE 6.png" alt="Comedor argelia" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
-              excepturi hic! Quas, distinctio recusandae rerum tempora illum quia.
-              Animi consectetur vero iure ea dolor tempore quia quisquam magnam,
-              totam laboriosam.
-            </p>
-          </article>
-          <article class="block-styles">
-            <img src="../images/COMEDOR TOGO DE 6.png" alt="Comedor togo" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
-              excepturi hic! Quas, distinctio recusandae rerum tempora illum quia.
-              Animi consectetur vero iure ea dolor tempore quia quisquam magnam,
-              totam laboriosam.
-            </p>
-          </article>
-        </section>
+    <!-- fin jumbotron -->
+    <div>
+      <div class="tables-grid">
+        <div class="t-1 block-styles">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/4xDl_rBhdB0?start=36"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <p>
+            Las mejores promociones! Solo las encontraras con nosotros, mas informacion en el video de como se llevara a
+            cabo el sorteo que tenemos para todos ustedes, nuestros preferenciales clientes.
+        </div>
+        <div class="t-2 .container-div-2">
+            <article class="art-margin block-styles">
+              <img src="../images/COMEDOR ARGELIA  DE 6.png" alt="Comedor argelia" />
+              <p>
+                Un comedor para seis personas con mesa de melamina en acabado tabaco para darle un estilo inigualable,
+                las sillas, hechas de una buna calidad con una costura con gran detalle casi llegando a la perfeccion.
+              </p>
+            </article>
+            <article class="block-styles">
+              <img src="../images/COMEDOR TOGO DE 6.png" alt="Comedor togo" />
+              <p>
+                Nuestros comedores son fabricados desde cero, por lo que garantizaremos la calidad en cada parte del
+                proceso, nuestros trabajadores estan comprometidos a brindar un excelente trabajo.
+              </p>
+            </article>
+        </div>
       </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+    </script>
   </main>
   <footer class="fx-footer">
     <a href="#title">Back to home</a>

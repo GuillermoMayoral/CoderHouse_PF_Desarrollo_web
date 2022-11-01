@@ -1,53 +1,95 @@
-// archivo temporal, trasladar todo a grid o bootstrap como corresponda
+// table
+@media screen and (min-width: 321px) {
+.tables-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
 
-/* aqui empieza main tables */
-.fx-tables {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    .t-1 {
+        margin: 5%;
+        height: 50%;
 
-    div {
-        width: 50%;
-    }
-}
-
-.container-div {
-    padding: 20px;
-    margin: 2.5% 1.75% 2.5% 2.5%;
-    height: 700px;
-
-    iframe {
-        width: 100%;
-        height: 56%;
-    }
-
-    p {
-        text-align: justify;
-        font-size: 30px;
-        padding: 5%;
-        width: 100%;
-        height: 320px;
-    }
-}
-
-.container-div-2 {
-    margin: 1.5% 2.5% 2.5% 1.75%;
-
-    article {
-        margin: 2.5%;
-
-        img {
-            width: 100%;
-            height: auto;
-            padding: 1%;
+        iframe {
+            margin: 10px;
+            width: 96%;
+            height: 310px;
+            border-radius: 5px;
         }
 
         p {
-            width: 100%;
+            padding: 30px;
             text-align: justify;
-            font-size: 20px;
+            font-size: $fuente-parrafo;
+        }
+    }
+    .t-2 {
+        margin: 5%;
+
+        .art-margin {
+            margin-bottom: 20px;
+        }
+
+        article {
             height: auto;
-            padding: 10%;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            p {
+                padding: 30px;
+                text-align: justify;
+                font-size: $fuente-parrafo;
+            }
+        }
+    }
+}
+}
+@media screen and (max-width: 320px) {
+    .tables-grid {
+        display: grid;
+        grid-template-rows: 1fr 2fr;
+        // height: auto;
+    
+        .t-1 {
+            margin: 5%;
+            height: auto;
+    
+            iframe {
+                margin: 10px;
+                width: 94%;
+                height: 150px;
+                border-radius: 5px;
+            }
+    
+            p {
+                padding: 10px;
+                text-align: justify;
+                font-size: $fuente-parrafo;
+            }
+        }
+        .t-2 {
+            margin: 5%;
+    
+            .art-margin {
+                margin-bottom: 20px;
+            }
+    
+            article {
+                height: auto;
+    
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+    
+                p {
+                    padding: 30px;
+                    text-align: justify;
+                    font-size: $fuente-parrafo;
+                }
+            }
         }
     }
 }
