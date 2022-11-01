@@ -1,0 +1,50 @@
+/* aqui empieza el menu de nav y el head */
+
+a {
+    text-decoration: none;
+    color: #D1AF94;
+    transition: .5s;
+
+    &active {
+        text-decoration: none;
+        color: #D1AF94;
+        transition: .5s;
+    }
+
+    &hover {
+        color: white;
+        text-decoration: underline;
+    }
+}
+
+.main-page {
+    color: #dc955b;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.fx-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: flex-end;
+    border-bottom: 10px solid gray;
+}
+
+.logo {
+    height: 100%;
+    margin-left: 20%;
+}
+
+.fx-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-right: 30px;
+
+    li {
+        margin: 20px;
+        font-size: 20px;
+    }
+}
