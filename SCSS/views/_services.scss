@@ -1,32 +1,85 @@
 /* aqui inicia main services */
-.s1 {
-    display: inline-block;
-    width: 40%;
 
-    iframe {
-        width: 100%;
-        height: 500px;
-        margin: 5%;
+@media screen and (min-width: 321px) {
+    .services-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 600px;
+
+        .s1 {
+            margin: 20px;
+            width: 100%;
+
+            iframe {
+                width: 90%;
+                height: 100%;
+            }
+        }
+
+        .s2 {
+            margin: 20px 20px 20px 0;
+
+            img {
+                padding: 10px;
+
+
+            }
+
+            .s2-subtitle {
+                font-size: 35px;
+            }
+
+            p {
+                font-size: $fuente-parrafo;
+                padding: 15px;
+                text-align: justify;
+            }
+        }
     }
 }
 
-.s2 {
-    display: inline-block;
-    position: relative;
-    padding: 10px;
-    width: 40%;
-    left: 100px;
-    bottom: 100px;
+@media screen and (max-width: 320px) {
+    .services-grid {
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+        height: 1500px;
 
-    p {
-        font-size: 20px;
-        text-align: justify;
-        margin: 10px;
+        .s1 {
+            margin: 15px;
+            width: 288px;
+            height: 250px;
+
+            iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .s2 {
+            margin: 0px 15px 15px 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                padding: 10px;
+                display: inline-block;
+                position: relative;
+
+            }
+
+            .s2-subtitle {
+                display: inline-block;
+                font-size: 30px;
+                position: relative;
+
+            }
+
+            p {
+                font-size: $fuente-parrafo;
+                padding: 15px;
+                text-align: justify;
+            }
+        }
     }
-}
-
-.s2-subtitle {
-    font-size: 35px;
-    margin: 50px;
-    text-decoration: underline;
 }
