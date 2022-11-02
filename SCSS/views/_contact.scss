@@ -1,34 +1,73 @@
 /* aqui inicia el main contact */
-.form-contact {
-    width: 40%;
-    margin: 0 auto;
-    margin-bottom: 55px;
-    padding: 30px;
+@media screen and (min-width: 321px) {
+    .form-contact {
+        width: 40%;
+        margin: 0 auto;
+        margin-bottom: 55px;
+        padding: 30px;
 
-    h4 {
-        font-size: 22px;
-        margin-bottom: 20px;
+        h4 {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            width: 100%;
+            background-color: #D1AF94;
+            border: none;
+            padding: 12px;
+            margin: 16px 0;
+        }
     }
 
-    button {
+    .data {
         width: 100%;
-        background-color: #D1AF94;
-        border: none;
-        padding: 12px;
-        margin: 16px 0;
+        background-color: #d6d6d6;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid black;
+        font-size: 18px;
     }
+
+    .data-radio {
+        margin-bottom: 16px;
+    }
+
 }
 
-.data {
-    width: 100%;
-    background-color: #d6d6d6;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid black;
-    font-size: 18px;
-}
+@media screen and (max-width: 320px) {
+    .form-contact {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 55px;
+        padding: 30px;
 
-.data-radio {
-    margin-bottom: 16px;
+        h4 {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            width: 100%;
+            background-color: #D1AF94;
+            border: none;
+            padding: 12px;
+            margin: 16px 0;
+        }
+    }
+
+    .data {
+        width: 100%;
+        background-color: #d6d6d6;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid black;
+        font-size: 18px;
+    }
+
+    .data-radio {
+        margin-bottom: 16px;
+    }
 }
