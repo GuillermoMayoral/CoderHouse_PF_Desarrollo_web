@@ -1,11 +1,40 @@
 .jumbotron {
-    // background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/background\ principal.jpg);
-    background-size: cover;
-    background-position: center;
 
     h1 {
         color: #000000;
         text-shadow: 0 0 5px black;
         font-size: 60px;
     }
+
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.j-sofas {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../images/jumbo/background-principal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.j-table {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../images/jumbo/tables.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.j-about-us {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../images/jumbo/about-us.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.j-services {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../images/jumbo/services.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.j-contact {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../images/jumbo/contact.jpg);
+    background-size: cover;
+    background-position: center;
 }

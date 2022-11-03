@@ -6,6 +6,6 @@ body {
 /* estilo de bloques */
 .block-styles {
     border-radius: 5px;
-    background-color: #faf0e8;
+    background-color: $_block-color;
     box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
 }

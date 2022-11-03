@@ -38,11 +38,12 @@
         object-position: center;
         height: 250px;
         margin-bottom: 30px;
+        box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.6);
     }
 }
 
 .gal {
-    // background-image: url(../images/background\ principal.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../images/jumbo/background-principal.jpg);
     background-size: cover;
     background-position: center;
     color: #000000;
